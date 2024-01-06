@@ -1,0 +1,51 @@
+/*Goofle Font*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Titillium+Web:wght@400;600;700&display=swap');
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Titillium Web', sans-serif; */
+
+/*Common Style*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/*Nav Related Stytle*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.r-color{
+    color: #FD6E0A;
+}
+.logo{
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+nav >ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+    font-weight: 400;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    border: 1px solid transparent;
+    padding: 3px 8px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    color: #fff;
+}
