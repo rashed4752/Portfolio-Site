@@ -112,11 +112,62 @@ a{
 
 /*about section syle*/
 .about_section{
-    padding: 140px;
-    background-color: #eee6e0;
+    padding: 140px 0px 100px;
+    /* background-color: #eee6e0; */
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
 }
 .section_tytle{
     text-align: center;
     color: #181818;
     font-size: 35px;
+}
+.about_info_container{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.about_inf_ h4, p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* what i do section  */
+.do_section_content{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0 ;
+}
+.do_sec_title{
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.do_sec_disc{
+    color: #757575;
+}
+/* skrill content  */
+.whats_i_do_sec{
+    width: 950px;
+    margin: 0 auto;
+}
+.skrills_container{
+    display: flex;
+    padding-bottom: 35px;
+}
+.skrill{
+    padding: 30px;
+    margin: 4px;
+    text-align: center;
+    color: #757575;
+    background-color: rgb(235, 234, 234);
+}
+.skrill>h3{
+    color: #181818;
+    margin-bottom: 4px;
+}
+.skrill >img{
+    margin-bottom: 10px;
 }
