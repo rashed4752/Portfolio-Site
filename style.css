@@ -208,3 +208,43 @@ a{
     text-align: center;
     margin-top: 50px;
 }
+/* footer section  */
+.footer_sec{
+    width: 900px;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+
+}
+.footer_colum{
+    height: auto;
+    margin-right: 5px;
+}
+.footer_colum >p{
+    display: inline;
+    color: #474747;
+}
+.footer_title{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.social_link img{
+    margin-right: 10px;
+    margin-top: 13px;
+}
+.footer_input_fild input{
+    display: block;
+    padding: 12px;
+    margin-bottom: 8px;
+    width: 420px;
+}
+.s_button {
+    margin-top: 20px;
+}
+.submit_button {
+    color: rgb(255, 255, 255);
+    background-color: #FD6E0A;
+    padding: 5px 15px;
+    font-size: 20px;
+    border-radius: 3px;
+}
