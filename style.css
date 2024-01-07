@@ -8,6 +8,12 @@ font-family: 'Titillium Web', sans-serif; */
 body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Titillium Web', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+h1 ,h3, h2{
+    margin: 0;
+    padding: 0;
 }
 
 /*Nav Related Stytle*/
@@ -15,6 +21,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 150px;
 }
 .r-color{
     color: #FD6E0A;
@@ -38,8 +45,9 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
-    font-weight: 400;
+    font-weight: 600;
 }
+
 .btn-primary{
     background-color: #FD6E0A;
     border: 1px solid transparent;
@@ -48,4 +56,67 @@ nav a{
     font-weight: 500;
     border-radius: 5px;
     color: #fff;
+}
+.header{
+    background-image:url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 600px;
+}
+
+/* banner related style */
+a{
+    text-decoration: none;
+}
+.banner{
+    padding: 40px 0px 0px 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner_content{
+    width: 500px;
+}
+.Portfolio_img{
+    width: 370px;
+    height: auto;
+
+}
+.banner_title{
+    font-size: 45px;
+    color: #474747;
+}
+.banner_title_2{
+    font-size: 80px;
+    color: #181818;
+}
+.dis{
+    color: #757575;
+    margin-bottom: 30px;
+    
+}
+.btn-second{
+    border: 1px solid #FD6E0A;
+    padding: 3px 8px;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    color: #FD6E0A;
+    transition: 0.6s;
+}
+.btn-second:hover{
+    background-color: #FD6E0A;
+    color: #fff;
+}
+
+/*about section syle*/
+.about_section{
+    padding: 140px;
+    background-color: #eee6e0;
+}
+.section_tytle{
+    text-align: center;
+    color: #181818;
+    font-size: 35px;
 }
