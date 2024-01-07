@@ -171,3 +171,40 @@ a{
 .skrill >img{
     margin-bottom: 10px;
 }
+
+/* resume content site  */
+.resume_section{
+    padding: 40px 0;
+}
+.resume_container{
+    display: flex;
+    gap: 20px;
+    width: 1080px;
+    margin: 0 auto;
+}
+.res_section_title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.resume_item > p{
+    display: inline;
+}
+.resume_item_title {
+    font-size: 25;
+    color: #474747;
+}
+.resume_item_inf{
+    color: #757575;
+}
+.resume_item_desc{
+    color: #757575;
+}
+.resume_collam_title{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.downloa-cv{
+    text-align: center;
+    margin-top: 50px;
+}
